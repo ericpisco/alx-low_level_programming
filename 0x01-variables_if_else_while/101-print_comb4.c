@@ -11,27 +11,28 @@ int main(void)
 	int tens = '0';
 	int hundreds = '0';
 
-	for (hundreds = '0'; hundreds <= '0'; hundreds++)
+	for (hundreds = '0'; hundreds <= '9'; hundreds++)
 	{
-		for (tens = '0'; tens <= '0'; tens++)
+		for (tens = '0'; tens <= '9'; tens++)
 		{
-			if (!((ones == tens) || (tens == hundreds) || (tens > ones) || (hundreds > tens)))
+			for (ones = '0'; ones <= '9'; ones++)
 			{
-				putchar(hundreds);
-				putchar(tens);
-				putchar(ones);
-				if (!(ones == '9' && hundreds == '7' && tens == '8'))
+				if (!((ones == tens) || (tens == hundreds) || (tens > ones) || (hundreds > tens)))
 				{
-					putchar(',');
-					putchar(' ');
+					putchar(hundreds);
+					putchar(tens);
+					putchar(ones);
+					if (!(ones == '9' && hundreds == '7' && tens == '8'))
+					{
+						putchar(',');
+						putchar(' ');
+
+					}
 				}
 			}
 		}
 	}
+
 	putchar('\n');
 	return (0);
-
 }
-
-
-
