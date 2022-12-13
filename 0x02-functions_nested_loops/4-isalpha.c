@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _isalpha - Entry point
- * Return: 1 succecc or  fail
+ * _isalpha - checks the code
+ *  @c: is c an integer argument
+ * Return: 1 success or 0 fail
  */
 
 int _isalpha(int c)
 {
-
 	if (c >= 97 && c <= 122)
 	{
 		return (1);
@@ -17,5 +17,5 @@ int _isalpha(int c)
 		return (1);
 	}
 	return (0);
-
 }
+
