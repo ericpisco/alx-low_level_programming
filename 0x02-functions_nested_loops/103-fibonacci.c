@@ -1,13 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - main block
- * Description: computes and prints even  number < 4,000,000
- * 5 below 1024 (excluded), followed by a new line
  * main - Prints sum of fibo numbers under 4,000,000
- * Return 0 Always
+ * Return: 0
  */
-
 
 int main(void)
 {
