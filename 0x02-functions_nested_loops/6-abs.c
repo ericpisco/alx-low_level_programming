@@ -11,6 +11,7 @@ int _abs(int n)
 	if (n >= 0)
 	{
 		return (n);
+		r = _abs(-1);
 	}
 	else
 	{
