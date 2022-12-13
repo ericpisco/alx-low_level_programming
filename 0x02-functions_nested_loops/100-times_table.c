@@ -24,7 +24,7 @@ void print_times_table(int n)
 				{
 					_putchar(32);
 					_putchar(32);
-					_putchar(op + 48);
+					_putchar(op + 48)
 				}
 				else if (op <= 99)
 				{
