@@ -10,7 +10,7 @@ int main(void)
 	a[2] = 1024;
 	p = &n;
 
-	/**
+	/*
 	 *main - Entry point
 	 *write your line of code here...
 	 *Remember:
