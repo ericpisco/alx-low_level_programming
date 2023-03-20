@@ -1,0 +1,1 @@
+Simply put, A shared library or a Dynamic Library is a library that is loaded dynamically at runtime for each application that requires it. Dynamic Linking does not require the code to be copied, it is done by just placing name of the library in the binary file.
