@@ -1,4 +1,5 @@
 #include "hash_tables.h"
+#include "split_files.c"
 
 /**
  * shash_table_create - create sorted hash table given size
